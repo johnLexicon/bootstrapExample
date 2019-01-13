@@ -2,6 +2,30 @@
 body{
     /* Falls back to sans-serif if Open sans is not available */
     font-family: 'Open sans', sans-serif;
+    /* Added so the nav-bar does not overlap the content on the top of the site */
+    padding-top: 80px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; /* For older browsers */
+}
+
+.navbar img {
+    width: 70%;
+}
+
+/* 
+    Class for the navbar animation 
+    Shrinks the navbar from 30px to 5px in the top and bottom.
+    Changes the opacity to 90%
+*/
+.cbp-af-header-shrink{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
 }
 
 aside{
@@ -26,7 +50,7 @@ article p{
     font-size: 16px;
 }
 
-header, footer{
+footer{
     padding: 20px;
     text-align: center;
     color: #ddd;
