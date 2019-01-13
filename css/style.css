@@ -86,3 +86,28 @@ header, footer{
     display: inline-block;
 }
 
+/* Media query for xs devices */
+@media(max-width:767px){
+
+    .range-list{
+        text-align: left;
+    }
+
+    .range-list h4 {
+        display: inline;
+        font-size: 22px;
+    }
+
+    .range-list a {
+        display: block;
+    }
+
+    .range-list img{
+        width: 33%;
+        height: 33%;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
